@@ -5,8 +5,8 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { 
   Home, 
-  Workflow, 
-  Template, 
+  GitBranch,    
+  FileText, 
   BarChart3, 
   Users, 
   Settings,
@@ -19,8 +19,8 @@ import { Button } from '@/components/ui/button';
 
 const navigation = [
   { name: 'Dashboard', href: '/dashboard', icon: Home },
-  { name: 'Workflows', href: '/workflows', icon: Workflow },
-  { name: 'Templates', href: '/templates', icon: Template },
+  { name: 'Workflows', href: '/workflows', icon: GitBranch },   
+  { name: 'Templates', href: '/templates', icon: FileText },    
   { name: 'Analytics', href: '/analytics', icon: BarChart3 },
   { name: 'Team', href: '/team', icon: Users },
   { name: 'Settings', href: '/settings', icon: Settings },
